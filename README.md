@@ -5,7 +5,7 @@ File Check: For each day, it checks if an attendance file (like attendance_2024-
 
 Camera Initialization: It then opens the computer’s camera and tries to capture an image.
 
-Face Detection: The program converts this image to grayscale and uses the face detection model to check if any faces are present in the image. If it detects a face, it assumes the student is present and saves the image with a filename based on the student’s ID and date. If no face is detected, it assumes the student is absent.
+Face Detection: The program converts this image to grayscale and uses the face detection model to check if any faces are present in the image. If it detects a face, it will match the face from the preuploaded image in the file if it is there in the file it mark present and saves the image with a filename based on the student’s ID and date. If no face is detected, it assumes the student is absent.
 
 Recording Attendance: The program then writes the student’s details (name, ID, date, attendance status, and image location) into the day’s attendance file.
 
