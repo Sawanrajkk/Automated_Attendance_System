@@ -1,4 +1,5 @@
 Set Up Requirements: The program starts by loading a face detection model and defining a function, take_attendance, which will handle the process of recording attendance for each student.
+A Cascade Classifier is a type of machine learning model specifically designed for object detection, commonly used to detect faces and other objects in images and video frames
 
 File Check: For each day, it checks if an attendance file (like attendance_2024-10-29.csv) exists. If not, it creates one and adds a header row with columns like "Student Name" and "Attendance."
 
